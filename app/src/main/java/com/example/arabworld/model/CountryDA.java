@@ -45,47 +45,47 @@ public class CountryDA {
         if (key.equals("btn1"))
             return "المملكة العربية السعودية";
         else if (key.equals("btn2"))
-            return "المملكة العربية السعودية";
+            return "الإمارات العربية المتحدة";
         else if (key.equals("btn3"))
-            return "المملكة العربية السعودية";
+            return "مملكة البحرين";
         else if (key.equals("btn4"))
-            return "المملكة العربية السعودية";
+            return "دولة الكويت";
         else if (key.equals("btn5"))
-            return "المملكة العربية السعودية";
+            return "الجمهورية اليمنية";
         else if (key.equals("btn6"))
-            return "المملكة العربية السعودية";
+            return "دولة قطر";
         else if (key.equals("btn7"))
-            return "المملكة العربية السعودية";
+            return "سلطنة عمان";
         else if (key.equals("btn8"))
-            return "المملكة العربية السعودية";
+            return "المملكة الأردنية الهاشمية";
         else if (key.equals("btn9"))
-            return "المملكة العربية السعودية";
+            return "الجمهورية العربية السورية";
         else if (key.equals("btn10"))
-            return "المملكة العربية السعودية";
+            return "الجمهورية اللبنانية";
         else if (key.equals("btn11"))
-            return "المملكة العربية السعودية";
+            return "دولة فلسطين";
         else if (key.equals("btn12"))
-            return "المملكة العربية السعودية";
+            return "جمهورية العراق";
         else if (key.equals("btn13"))
-            return "المملكة العربية السعودية";
+            return "جمهورية السودان";
         else if (key.equals("btn14"))
-            return "المملكة العربية السعودية";
+            return "جمهورية مصر العربية";
         else if (key.equals("btn15"))
-            return "المملكة العربية السعودية";
+            return "دولة ليبيا";
         else if (key.equals("btn16"))
-            return "المملكة العربية السعودية";
+            return "الجمهورية التونسية";
         else if (key.equals("btn17"))
-            return "المملكة العربية السعودية";
+            return "الجمهورية الجزائرية الديموقراطية الشعبية";
         else if (key.equals("btn18"))
-            return "المملكة العربية السعودية";
+            return "المملكة المغربية";
         else if (key.equals("btn19"))
-            return "المملكة العربية السعودية";
+            return "الجمهورية الإسلامية الموريتانية";
         else if (key.equals("btn20"))
-            return "المملكة العربية السعودية";
+            return "جمهورية الصومال الفيدرالية";
         else if (key.equals("btn21"))
-            return "المملكة العربية السعودية";
+            return "جمهورية جيبوتي";
         else
-            return "المملكة العربية السعودية";
+            return "جزر القمر";
 
     }
 
