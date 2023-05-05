@@ -16,7 +16,10 @@ public class CountryDA {
     }
 
     public Country getByName(String name) {
-        if(String)
+        for(int i=0; i< countries.size(); i++){
+            if(countries.get(i).getName().equals(name))
+                return countries.get(i);
+        }
         return null;
     }
 
