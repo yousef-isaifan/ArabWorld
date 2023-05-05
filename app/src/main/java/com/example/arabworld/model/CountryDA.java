@@ -9,10 +9,15 @@ public class CountryDA {
     private ArrayList<Country> countries;
 
     public CountryDA() {
-        String [] res = readFile();
-        for (int i = 0; i < res.length; i=i+5) {
-            countries.add(new Country(res[0], res[1],res[2],res[3],res[4]));
+        String[] res = readFile();
+        for (int i = 0; i < res.length; i = i + 5) {
+            countries.add(new Country(res[0], res[1], res[2], res[3], res[4]));
         }
+    }
+
+    public Country getByName(String name) {
+        if(String)
+        return null;
     }
 
     private String[] readFile() {
