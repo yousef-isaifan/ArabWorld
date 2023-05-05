@@ -16,8 +16,8 @@ public class CountryDA {
     }
 
     public Country getByName(String name) {
-        for(int i=0; i< countries.size(); i++){
-            if(countries.get(i).getName().equals(name))
+        for (int i = 0; i < countries.size(); i++) {
+            if (countries.get(i).getName().equals(name))
                 return countries.get(i);
         }
         return null;
@@ -41,5 +41,74 @@ public class CountryDA {
         return result;
     }
 
+    public String check(String key) {
+        if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals(btn3))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        else if (key.equals("btn1"))
+            return "المملكة العربية السعودية";
+
+        return "المملكة العربية السعودية";
+
+        else if (btn18)
+            return "المملكة العربية السعودية";
+
+        else if (btn19)
+            return "المملكة العربية السعودية";
+
+        else if (btn120)
+            return "المملكة العربية السعودية";
+
+        else if (btn121)
+            return "المملكة العربية السعودية";
+
+        else
+            return "المملكة العربية السعودية";
+
+    }
 
 }
