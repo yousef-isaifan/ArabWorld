@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    CountryDA countries = new CountryDA();
+    private CountryDA countries = new CountryDA(this);
     private Button btn1;
     private Button btn2;
     private Button btn3;

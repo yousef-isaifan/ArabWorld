@@ -1,14 +1,20 @@
 package com.example.arabworld.model;
 
-import java.io.File;
+import android.content.Context;
+import android.os.Environment;
+
+import java.io.*;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CountryDA {
     private ArrayList<Country> countries;
+    private Context context;
 
-    public CountryDA() {
+    public CountryDA(Context context) {
+        countries = new ArrayList<>();
+        context = context;
         String[] res = readFile();
         for (int i = 0; i < res.length; i = i + 5) {
             countries.add(new Country(res[0], res[1], res[2], res[3], res[4]));
@@ -24,10 +30,8 @@ public class CountryDA {
     }
 
     private String[] readFile() {
-        String filePath = " java/com/example/arabworld/model/text.txt";
-        File file = new File(filePath);
-        System.out.println(file.exists());
-        String read;
+        File file = new File("res/assets/text.txt");
+        String read = "";
         try {
             Scanner scan = new Scanner(file);
             read = "";
@@ -35,7 +39,7 @@ public class CountryDA {
                 read += scan.next();
             }
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
 
         String[] result = read.split("&");
