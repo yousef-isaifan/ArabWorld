@@ -9,10 +9,13 @@ public class CountryDA {
     private ArrayList<Country> countries;
 
     public CountryDA() {
-
+        String [] res = readFile();
+        for (int i = 0; i < res.length; i=i+4) {
+            countries.add(new Country(res[0], res[1],res[2],res[3],res[5]));
+        }
     }
 
-    private void readFile() {
+    private String[] readFile() {
         File file = new File("java/com/example/arabworld/assets/text.txt");
         System.out.println(file.exists());
         String read;
@@ -27,6 +30,8 @@ public class CountryDA {
         }
 
         String[] result = read.split("&");
+        return result;
     }
+
 
 }

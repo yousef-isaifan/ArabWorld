@@ -4,11 +4,11 @@ package com.example.arabworld.model;
 public class Country {
     private String name;
     private String capital;
-    private long landArea;
-    private long population;
+    private String landArea;
+    private String population;
     private String link;
 
-    public Country(String name, String capital, long landArea, long population, String link) {
+    public Country(String name, String capital, String landArea, String population, String link) {
         this.name = name;
         this.capital = capital;
         this.landArea = landArea;
@@ -32,19 +32,19 @@ public class Country {
         this.capital = capital;
     }
 
-    public long getLandArea() {
+    public String getLandArea() {
         return landArea;
     }
 
-    public void setLandArea(long landArea) {
+    public void setLandArea(String landArea) {
         this.landArea = landArea;
     }
 
-    public long getPopulation() {
+    public String getPopulation() {
         return population;
     }
 
-    public void setPopulation(long population) {
+    public void setPopulation(String population) {
         this.population = population;
     }
 
