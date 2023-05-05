@@ -183,10 +183,7 @@
 
                 <Button
                     android:id="@+id/btn22"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_margin="5dp"
+                    style="@style/buttonStyle"
                     android:text="جزر القمر" />
 
             </LinearLayout>
@@ -195,6 +192,18 @@
 
     </ScrollView>
 
-
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="340dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/border2"
+        android:padding="15dp"
+        android:text="dd"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:visibility="gone"
+        />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
