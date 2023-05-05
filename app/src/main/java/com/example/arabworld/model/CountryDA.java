@@ -44,68 +44,46 @@ public class CountryDA {
     public String check(String key) {
         if (key.equals("btn1"))
             return "المملكة العربية السعودية";
-        else if (key.equals("btn1"))
+        else if (key.equals("btn2"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals(btn3))
+        else if (key.equals("btn3"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn4"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn5"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn6"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn7"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn8"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn9"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn10"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn11"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn12"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn13"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn14"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn15"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn16"))
             return "المملكة العربية السعودية";
-
-        else if (key.equals("btn1"))
+        else if (key.equals("btn17"))
             return "المملكة العربية السعودية";
-
-        return "المملكة العربية السعودية";
-
-        else if (btn18)
+        else if (key.equals("btn18"))
             return "المملكة العربية السعودية";
-
-        else if (btn19)
+        else if (key.equals("btn19"))
             return "المملكة العربية السعودية";
-
-        else if (btn120)
+        else if (key.equals("btn20"))
             return "المملكة العربية السعودية";
-
-        else if (btn121)
+        else if (key.equals("btn21"))
             return "المملكة العربية السعودية";
-
         else
             return "المملكة العربية السعودية";
 
