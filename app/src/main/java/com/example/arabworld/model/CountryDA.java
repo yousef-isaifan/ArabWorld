@@ -13,18 +13,20 @@ public class CountryDA {
     }
 
     private void readFile() {
-        File file = new File("text.txt");
+        File file = new File("java/com/example/arabworld/assets/text.txt");
         System.out.println(file.exists());
+        String read;
         try {
             Scanner scan = new Scanner(file);
-            String read = "";
+            read = "";
             while (scan.hasNext()) {
-                read+=scan.next();
-
+                read += scan.next();
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
+
+        String[] result = read.split("&");
     }
 
 }
