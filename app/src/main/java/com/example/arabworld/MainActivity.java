@@ -5,10 +5,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import com.example.arabworld.model.Country;
+import com.example.arabworld.model.CountryDA;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+
+    CountryDA countries = new CountryDA();
     private Button btn1;
     private Button btn2;
     private Button btn3;
@@ -31,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
     private Button btn20;
     private Button btn21;
     private Button btn22;
+
+    private TextView textV;
 
 
     @Override
@@ -61,13 +69,28 @@ public class MainActivity extends AppCompatActivity {
         btn21 = (Button) findViewById(R.id.btn21);
         btn22 = (Button) findViewById(R.id.btn22);
 
+        textV = (TextView) findViewById(R.id.textV);
+
+
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Country c = countries.getByName("btn1");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
             }
         });
 
 
     }
+
+    private static String getString(Country country) {
+        String res = country.getName() + "الاسم: " + "\n"
+                + country.getCapital() + "العاصمة: " + "\n"
+                + country.getLandArea() + "المساجة: " + "\n"
+                + country.getPopulation() + "التعداد السكاني: " + "\n"
+                + country.getLink() + "للمزيد: ";
+        return "";
+    }
+
 }

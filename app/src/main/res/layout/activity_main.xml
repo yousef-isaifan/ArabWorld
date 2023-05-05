@@ -193,17 +193,7 @@
     </ScrollView>
 
     <TextView
-        android:layout_width="320dp"
-        android:layout_height="340dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="40sp"
-        android:background="@drawable/border2"
-        android:padding="15dp"
-        android:text="dd"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        android:visibility="gone"
-        />
+        android:id="@+id/textV"
+        style="@style/textV" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

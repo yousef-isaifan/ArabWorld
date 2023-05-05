@@ -24,7 +24,8 @@ public class CountryDA {
     }
 
     private String[] readFile() {
-        File file = new File("java/com/example/arabworld/assets/text.txt");
+        String filePath = " java/com/example/arabworld/model/text.txt";
+        File file = new File(filePath);
         System.out.println(file.exists());
         String read;
         try {
