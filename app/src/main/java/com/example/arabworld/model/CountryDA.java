@@ -30,7 +30,7 @@ public class CountryDA {
     }
 
     private String[] readFile() {
-        File file = new File("res/assets/text.txt");
+        File file = new File("app/src/main/res/text.txt");
         String read = "";
         try {
             Scanner scan = new Scanner(file);

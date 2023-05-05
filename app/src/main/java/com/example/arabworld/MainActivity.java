@@ -81,6 +81,201 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn2");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn3");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn4");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn5");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn6");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn7");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn8");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+
+        btn9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn9");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+
+        btn10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn10");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn11");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn12");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+
+        btn13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn13");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn14");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn15");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn16");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn17");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn18");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn19");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn20");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn21");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
+        btn22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Country c = countries.getByName("btn22");
+                textV.setVisibility(View.VISIBLE);
+                textV.setText(getString(c));
+            }
+        });
+
 
     }
 
