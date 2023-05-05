@@ -3,20 +3,34 @@ package com.example.arabworld;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
-    private Button btn1;    private Button btn2;
-    private Button btn3;    private Button btn4;
-    private Button btn5;    private Button btn6;
-    private Button btn7;    private Button btn8;
-    private Button btn9;    private Button btn10;
-    private Button btn11;   private Button btn12;
-    private Button btn13;   private Button btn14;
-    private Button btn15;   private Button btn16;
-    private Button btn17;   private Button btn18;
-    private Button btn19;   private Button btn20;
-    private Button btn21;   private Button btn22;
+    private Button btn1;
+    private Button btn2;
+    private Button btn3;
+    private Button btn4;
+    private Button btn5;
+    private Button btn6;
+    private Button btn7;
+    private Button btn8;
+    private Button btn9;
+    private Button btn10;
+    private Button btn11;
+    private Button btn12;
+    private Button btn13;
+    private Button btn14;
+    private Button btn15;
+    private Button btn16;
+    private Button btn17;
+    private Button btn18;
+    private Button btn19;
+    private Button btn20;
+    private Button btn21;
+    private Button btn22;
 
 
     @Override
@@ -42,14 +56,17 @@ public class MainActivity extends AppCompatActivity {
         btn16 = (Button) findViewById(R.id.btn16);
         btn17 = (Button) findViewById(R.id.btn17);
         btn18 = (Button) findViewById(R.id.btn18);
-        btn19= (Button) findViewById(R.id.btn19);
+        btn19 = (Button) findViewById(R.id.btn19);
         btn20 = (Button) findViewById(R.id.btn20);
         btn21 = (Button) findViewById(R.id.btn21);
         btn22 = (Button) findViewById(R.id.btn22);
 
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-
-
+            }
+        });
 
 
     }

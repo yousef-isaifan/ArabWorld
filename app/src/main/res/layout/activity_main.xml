@@ -8,6 +8,11 @@
     android:padding="10dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="209dp"
@@ -27,24 +32,18 @@
 
                 <Button
                     android:id="@+id/btn1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    android:text="السعودية"
+                    style="@style/buttonStyle" />
 
                 <Button
                     android:id="@+id/btn2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="الإمارات" />
 
                 <Button
                     android:id="@+id/btn3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="البحرين" />
             </LinearLayout>
 
 
@@ -54,24 +53,18 @@
 
                 <Button
                     android:id="@+id/btn4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="الكويت" />
 
                 <Button
                     android:id="@+id/btn5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="اليمن" />
 
                 <Button
                     android:id="@+id/btn6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="قطر" />
             </LinearLayout>
 
             <LinearLayout
@@ -80,24 +73,18 @@
 
                 <Button
                     android:id="@+id/btn7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="عمان" />
 
                 <Button
                     android:id="@+id/btn8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="الأردن" />
 
                 <Button
                     android:id="@+id/btn9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="سوريا" />
             </LinearLayout>
 
             <LinearLayout
@@ -106,24 +93,18 @@
 
                 <Button
                     android:id="@+id/btn10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="لبنان" />
 
                 <Button
                     android:id="@+id/btn11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="فلسطين" />
 
                 <Button
                     android:id="@+id/btn12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="العراق" />
             </LinearLayout>
 
             <LinearLayout
@@ -132,24 +113,18 @@
 
                 <Button
                     android:id="@+id/btn13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="السودان" />
 
                 <Button
                     android:id="@+id/btn14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="مصر" />
 
                 <Button
                     android:id="@+id/btn15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="ليبيا" />
             </LinearLayout>
 
             <LinearLayout
@@ -158,24 +133,18 @@
 
                 <Button
                     android:id="@+id/btn16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="تونس" />
 
                 <Button
                     android:id="@+id/btn17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="الجزائر" />
 
                 <Button
                     android:id="@+id/btn18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="المغرب" />
             </LinearLayout>
 
             <LinearLayout
@@ -184,24 +153,18 @@
 
                 <Button
                     android:id="@+id/btn19"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="موريتانيا" />
 
                 <Button
                     android:id="@+id/btn20"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="الصومال" />
 
                 <Button
                     android:id="@+id/btn21"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Button" />
+                    style="@style/buttonStyle"
+                    android:text="جيبوتي" />
             </LinearLayout>
 
             <LinearLayout
@@ -213,9 +176,9 @@
                     android:id="@+id/btn22"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center"
-                    android:text="Button" />
+                    android:layout_margin="5dp"
+                    android:text="جزر القمر" />
 
             </LinearLayout>
 

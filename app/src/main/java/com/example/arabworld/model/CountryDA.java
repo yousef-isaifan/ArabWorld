@@ -15,9 +15,9 @@ public class CountryDA {
         }
     }
 
-    public Country getByName(String name) {
+    public Country getByName(String key) {
         for (int i = 0; i < countries.size(); i++) {
-            if (countries.get(i).getName().equals(name))
+            if (countries.get(i).getName().equals(getKey(key)))
                 return countries.get(i);
         }
         return null;
@@ -41,7 +41,7 @@ public class CountryDA {
         return result;
     }
 
-    public String check(String key) {
+    private String getKey(String key) {
         if (key.equals("btn1"))
             return "المملكة العربية السعودية";
         else if (key.equals("btn2"))
