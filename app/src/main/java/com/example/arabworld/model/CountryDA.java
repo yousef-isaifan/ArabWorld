@@ -10,8 +10,8 @@ public class CountryDA {
 
     public CountryDA() {
         String [] res = readFile();
-        for (int i = 0; i < res.length; i=i+4) {
-            countries.add(new Country(res[0], res[1],res[2],res[3],res[5]));
+        for (int i = 0; i < res.length; i=i+5) {
+            countries.add(new Country(res[0], res[1],res[2],res[3],res[4]));
         }
     }
 
