@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.example.arabworld.model.Country;
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
   private Button btn22;
 
   private TextView textV;
+  private ScrollView sv;
 
 
   @Override
@@ -70,12 +72,13 @@ public class MainActivity extends AppCompatActivity {
     btn22 = (Button) findViewById(R.id.btn22);
 
     textV = (TextView) findViewById(R.id.textV);
+    sv = (ScrollView) findViewById(R.id.sv);
 
 
     btn1.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn1"));
       }
     });
@@ -83,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
     btn2.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn2"));
       }
     });
@@ -91,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
     btn3.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn3"));
       }
     });
@@ -99,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
     btn4.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn4"));
       }
     });
@@ -107,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
     btn5.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn5"));
       }
     });
@@ -116,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
     btn6.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn6"));
       }
     });
@@ -125,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
     btn7.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn7"));
       }
     });
@@ -134,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
     btn8.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn8"));
       }
     });
@@ -143,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
     btn9.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn9"));
       }
     });
@@ -152,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
     btn10.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn10"));
       }
     });
@@ -160,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
     btn11.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn11"));
       }
     });
@@ -168,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
     btn12.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn12"));
       }
     });
@@ -177,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
     btn13.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn13"));
       }
     });
@@ -185,7 +188,7 @@ public class MainActivity extends AppCompatActivity {
     btn14.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn14"));
       }
     });
@@ -193,7 +196,7 @@ public class MainActivity extends AppCompatActivity {
     btn15.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn15"));
       }
     });
@@ -201,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
     btn16.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn16"));
       }
     });
@@ -209,7 +212,7 @@ public class MainActivity extends AppCompatActivity {
     btn17.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn17"));
       }
     });
@@ -217,7 +220,7 @@ public class MainActivity extends AppCompatActivity {
     btn18.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn18"));
       }
     });
@@ -225,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
     btn19.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn19"));
       }
     });
@@ -233,7 +236,7 @@ public class MainActivity extends AppCompatActivity {
     btn20.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn20"));
       }
     });
@@ -241,7 +244,7 @@ public class MainActivity extends AppCompatActivity {
     btn21.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn21"));
       }
     });
@@ -249,7 +252,7 @@ public class MainActivity extends AppCompatActivity {
     btn22.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        textV.setVisibility(View.VISIBLE);
+        sv.setVisibility(View.VISIBLE);
         textV.setText(countries.getKey("btn22"));
       }
     });
