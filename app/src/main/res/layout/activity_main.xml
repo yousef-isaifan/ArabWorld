@@ -42,17 +42,17 @@
         <Button
           android:id="@+id/btn1"
           style="@style/buttonStyle"
-          android:text="السعودية" />
+          android:text="@string/saudiArabia" />
 
         <Button
           android:id="@+id/btn2"
           style="@style/buttonStyle"
-          android:text="الإمارات" />
+          android:text="@string/uae" />
 
         <Button
           android:id="@+id/btn3"
           style="@style/buttonStyle"
-          android:text="البحرين" />
+          android:text="@string/bh" />
       </LinearLayout>
 
 
@@ -63,17 +63,17 @@
         <Button
           android:id="@+id/btn4"
           style="@style/buttonStyle"
-          android:text="الكويت" />
+          android:text="@string/q8" />
 
         <Button
           android:id="@+id/btn5"
           style="@style/buttonStyle"
-          android:text="اليمن" />
+          android:text="@string/yamen" />
 
         <Button
           android:id="@+id/btn6"
           style="@style/buttonStyle"
-          android:text="قطر" />
+          android:text="@string/qtr" />
       </LinearLayout>
 
       <LinearLayout
@@ -83,17 +83,17 @@
         <Button
           android:id="@+id/btn7"
           style="@style/buttonStyle"
-          android:text="عمان" />
+          android:text="@string/oman" />
 
         <Button
           android:id="@+id/btn8"
           style="@style/buttonStyle"
-          android:text="الأردن" />
+          android:text="@string/jr" />
 
         <Button
           android:id="@+id/btn9"
           style="@style/buttonStyle"
-          android:text="سوريا" />
+          android:text="@string/sirya" />
       </LinearLayout>
 
       <LinearLayout
@@ -103,17 +103,17 @@
         <Button
           android:id="@+id/btn10"
           style="@style/buttonStyle"
-          android:text="لبنان" />
+          android:text="@string/lb" />
 
         <Button
           android:id="@+id/btn11"
           style="@style/buttonStyle"
-          android:text="فلسطين" />
+          android:text="@string/ps" />
 
         <Button
           android:id="@+id/btn12"
           style="@style/buttonStyle"
-          android:text="العراق" />
+          android:text="@string/iraq" />
       </LinearLayout>
 
       <LinearLayout
@@ -123,17 +123,17 @@
         <Button
           android:id="@+id/btn13"
           style="@style/buttonStyle"
-          android:text="السودان" />
+          android:text="@string/sudan" />
 
         <Button
           android:id="@+id/btn14"
           style="@style/buttonStyle"
-          android:text="مصر" />
+          android:text="@string/eg" />
 
         <Button
           android:id="@+id/btn15"
           style="@style/buttonStyle"
-          android:text="ليبيا" />
+          android:text="@string/libya" />
       </LinearLayout>
 
       <LinearLayout
@@ -143,17 +143,17 @@
         <Button
           android:id="@+id/btn16"
           style="@style/buttonStyle"
-          android:text="تونس" />
+          android:text="@string/tu" />
 
         <Button
           android:id="@+id/btn17"
           style="@style/buttonStyle"
-          android:text="الجزائر" />
+          android:text="@string/alj" />
 
         <Button
           android:id="@+id/btn18"
           style="@style/buttonStyle"
-          android:text="المغرب" />
+          android:text="@string/mor" />
       </LinearLayout>
 
       <LinearLayout
@@ -163,17 +163,17 @@
         <Button
           android:id="@+id/btn19"
           style="@style/buttonStyle"
-          android:text="موريتانيا" />
+          android:text="@string/mori" />
 
         <Button
           android:id="@+id/btn20"
           style="@style/buttonStyle"
-          android:text="الصومال" />
+          android:text="@string/som" />
 
         <Button
           android:id="@+id/btn21"
           style="@style/buttonStyle"
-          android:text="جيبوتي" />
+          android:text="@string/ge" />
       </LinearLayout>
 
       <LinearLayout
@@ -184,7 +184,7 @@
         <Button
           android:id="@+id/btn22"
           style="@style/buttonStyle"
-          android:text="جزر القمر" />
+          android:text="@string/islands" />
 
       </LinearLayout>
 

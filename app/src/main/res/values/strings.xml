@@ -1,3 +1,25 @@
 <resources>
   <string name="app_name">Arab World</string>
+  <string name="saudiArabia">السعودية</string>
+  <string name="uae">الإمارات</string>
+  <string name="bh">البحرين</string>
+  <string name="q8">الكويت</string>
+  <string name="yamen">اليمن</string>
+  <string name="qtr">قطر</string>
+  <string name="oman">عمان</string>
+  <string name="jr">الأردن</string>
+  <string name="sirya">سوريا</string>
+  <string name="lb">لبنان</string>
+  <string name="ps">فلسطين</string>
+  <string name="iraq">العراق</string>
+  <string name="sudan">السودان</string>
+  <string name="eg">مصر</string>
+  <string name="libya">ليبيا</string>
+  <string name="tu">تونس</string>
+  <string name="alj">الجزائر</string>
+  <string name="mor">المغرب</string>
+  <string name="mori">موريتانيا</string>
+  <string name="som">الصومال</string>
+  <string name="ge">جيبوتي</string>
+  <string name="islands">جزر القمر</string>
 </resources>
