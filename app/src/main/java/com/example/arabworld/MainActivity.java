@@ -160,18 +160,16 @@ public class MainActivity extends AppCompatActivity {
     btn11.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn11");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn11"));
       }
     });
 
     btn12.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn12");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn12"));
       }
     });
 
@@ -179,103 +177,93 @@ public class MainActivity extends AppCompatActivity {
     btn13.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn13");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn13"));
       }
     });
 
     btn14.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn14");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn14"));
       }
     });
 
     btn15.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn15");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn15"));
       }
     });
 
     btn16.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn16");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn16"));
       }
     });
 
     btn17.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn17");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn17"));
       }
     });
 
     btn18.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn18");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn18"));
       }
     });
 
     btn19.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn19");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn19"));
       }
     });
 
     btn20.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn20");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn20"));
       }
     });
 
     btn21.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn21");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn21"));
       }
     });
 
     btn22.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn22");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn22"));
       }
     });
 
 
   }
 
-  private static String getString(Country country) {
-    String res = country.getName() + "الاسم: " + ""
-        + country.getCapital() + "العاصمة: " + ""
-        + country.getLandArea() + "المساجة: " + ""
-        + country.getPopulation() + "التعداد السكاني: " + ""
-        + country.getLink() + "للمزيد: ";
-    return "";
-  }
+//  private static String getString(Country country) {
+//    String res = country.getName() + "الاسم: " + ""
+//        + country.getCapital() + "العاصمة: " + ""
+//        + country.getLandArea() + "المساجة: " + ""
+//        + country.getPopulation() + "التعداد السكاني: " + ""
+//        + country.getLink() + "للمزيد: ";
+//    return "";
+//  }
 
 }
