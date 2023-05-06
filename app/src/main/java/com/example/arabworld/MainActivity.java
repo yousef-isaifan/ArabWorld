@@ -83,36 +83,32 @@ public class MainActivity extends AppCompatActivity {
     btn2.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn2");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn2"));
       }
     });
 
     btn3.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn3");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn3"));
       }
     });
 
     btn4.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn4");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn4"));
       }
     });
 
     btn5.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn5");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn5"));
       }
     });
 
@@ -120,9 +116,8 @@ public class MainActivity extends AppCompatActivity {
     btn6.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn6");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn6"));
       }
     });
 
@@ -130,9 +125,8 @@ public class MainActivity extends AppCompatActivity {
     btn7.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn7");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn7"));
       }
     });
 
@@ -140,9 +134,8 @@ public class MainActivity extends AppCompatActivity {
     btn8.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn8");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn8"));
       }
     });
 
@@ -150,9 +143,8 @@ public class MainActivity extends AppCompatActivity {
     btn9.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn9");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn9"));
       }
     });
 
@@ -160,9 +152,8 @@ public class MainActivity extends AppCompatActivity {
     btn10.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Country c = countries.getByName("btn10");
         textV.setVisibility(View.VISIBLE);
-        textV.setText(getString(c));
+        textV.setText(countries.getKey("btn10"));
       }
     });
 
