@@ -13,14 +13,13 @@
 
   <style name="textV">
     <item name="android:layout_width">320dp</item>
-    <item name="android:layout_height">340dp</item>
+    <item name="android:layout_height">300dp</item>
     <item name="android:layout_gravity">center</item>
-    <item name="android:layout_marginTop">40sp</item>
-    <item name="android:background">@drawable/border2</item>
+<!--    <item name="android:layout_marginTop">40sp</item>-->
+<!--    <item name="android:background">@drawable/border2</item>-->
     <item name="android:padding">15dp</item>
     <item name="android:textStyle">bold</item>
-<!--    <item name="android:textAlignment">center</item>-->
     <item name="android:textSize">22sp</item>
-    <item name="android:visibility">gone</item>
+<!--    <item name="android:visibility">gone</item>-->
   </style>
 </resources>

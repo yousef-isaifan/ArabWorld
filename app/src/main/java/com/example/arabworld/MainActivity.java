@@ -257,13 +257,5 @@ public class MainActivity extends AppCompatActivity {
 
   }
 
-//  private static String getString(Country country) {
-//    String res = country.getName() + "الاسم: " + ""
-//        + country.getCapital() + "العاصمة: " + ""
-//        + country.getLandArea() + "المساجة: " + ""
-//        + country.getPopulation() + "التعداد السكاني: " + ""
-//        + country.getLink() + "للمزيد: ";
-//    return "";
-//  }
 
 }

@@ -24,7 +24,7 @@
 
   <ScrollView
     android:layout_width="wrap_content"
-    android:layout_height="209dp"
+    android:layout_height="195dp"
     android:layout_gravity="center"
     android:background="@drawable/border"
     android:padding="10dp">
@@ -192,8 +192,17 @@
 
   </ScrollView>
 
-  <TextView
-    android:id="@+id/textV"
-    style="@style/textV" />
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/border2">
 
+          <TextView
+            android:id="@+id/textV"
+            style="@style/textV" />
+
+    </ScrollView>
 </androidx.appcompat.widget.LinearLayoutCompat>
