@@ -1,199 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/arabmap3"
-    android:orientation="vertical"
-    android:padding="10dp"
-    tools:context=".MainActivity">
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/arabmap3"
+  android:orientation="vertical"
+  android:padding="10dp"
+  tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:layout_gravity="center"
-        android:layout_margin="15dp"
-        android:background="@color/white"
-        android:text="دول الوطن العربي"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textStyle="bold"
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="45dp"
+    android:layout_gravity="center"
+    android:layout_margin="15dp"
+    android:background="@color/white"
+    android:text="دول الوطن العربي"
+    android:textColor="@color/black"
+    android:textSize="30sp"
+    android:textStyle="bold"
 
-        />
+    />
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="209dp"
-        android:layout_gravity="center"
-        android:background="@drawable/border"
-        android:padding="10dp">
+  <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="209dp"
+    android:layout_gravity="center"
+    android:background="@drawable/border"
+    android:padding="10dp">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:orientation="vertical">
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-                <Button
-                    android:id="@+id/btn1"
-                    style="@style/buttonStyle"
-                    android:text="السعودية" />
+        <Button
+          android:id="@+id/btn1"
+          style="@style/buttonStyle"
+          android:text="السعودية" />
 
-                <Button
-                    android:id="@+id/btn2"
-                    style="@style/buttonStyle"
-                    android:text="الإمارات" />
+        <Button
+          android:id="@+id/btn2"
+          style="@style/buttonStyle"
+          android:text="الإمارات" />
 
-                <Button
-                    android:id="@+id/btn3"
-                    style="@style/buttonStyle"
-                    android:text="البحرين" />
-            </LinearLayout>
+        <Button
+          android:id="@+id/btn3"
+          style="@style/buttonStyle"
+          android:text="البحرين" />
+      </LinearLayout>
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-                <Button
-                    android:id="@+id/btn4"
-                    style="@style/buttonStyle"
-                    android:text="الكويت" />
+        <Button
+          android:id="@+id/btn4"
+          style="@style/buttonStyle"
+          android:text="الكويت" />
 
-                <Button
-                    android:id="@+id/btn5"
-                    style="@style/buttonStyle"
-                    android:text="اليمن" />
+        <Button
+          android:id="@+id/btn5"
+          style="@style/buttonStyle"
+          android:text="اليمن" />
 
-                <Button
-                    android:id="@+id/btn6"
-                    style="@style/buttonStyle"
-                    android:text="قطر" />
-            </LinearLayout>
+        <Button
+          android:id="@+id/btn6"
+          style="@style/buttonStyle"
+          android:text="قطر" />
+      </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-                <Button
-                    android:id="@+id/btn7"
-                    style="@style/buttonStyle"
-                    android:text="عمان" />
+        <Button
+          android:id="@+id/btn7"
+          style="@style/buttonStyle"
+          android:text="عمان" />
 
-                <Button
-                    android:id="@+id/btn8"
-                    style="@style/buttonStyle"
-                    android:text="الأردن" />
+        <Button
+          android:id="@+id/btn8"
+          style="@style/buttonStyle"
+          android:text="الأردن" />
 
-                <Button
-                    android:id="@+id/btn9"
-                    style="@style/buttonStyle"
-                    android:text="سوريا" />
-            </LinearLayout>
+        <Button
+          android:id="@+id/btn9"
+          style="@style/buttonStyle"
+          android:text="سوريا" />
+      </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-                <Button
-                    android:id="@+id/btn10"
-                    style="@style/buttonStyle"
-                    android:text="لبنان" />
+        <Button
+          android:id="@+id/btn10"
+          style="@style/buttonStyle"
+          android:text="لبنان" />
 
-                <Button
-                    android:id="@+id/btn11"
-                    style="@style/buttonStyle"
-                    android:text="فلسطين" />
+        <Button
+          android:id="@+id/btn11"
+          style="@style/buttonStyle"
+          android:text="فلسطين" />
 
-                <Button
-                    android:id="@+id/btn12"
-                    style="@style/buttonStyle"
-                    android:text="العراق" />
-            </LinearLayout>
+        <Button
+          android:id="@+id/btn12"
+          style="@style/buttonStyle"
+          android:text="العراق" />
+      </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-                <Button
-                    android:id="@+id/btn13"
-                    style="@style/buttonStyle"
-                    android:text="السودان" />
+        <Button
+          android:id="@+id/btn13"
+          style="@style/buttonStyle"
+          android:text="السودان" />
 
-                <Button
-                    android:id="@+id/btn14"
-                    style="@style/buttonStyle"
-                    android:text="مصر" />
+        <Button
+          android:id="@+id/btn14"
+          style="@style/buttonStyle"
+          android:text="مصر" />
 
-                <Button
-                    android:id="@+id/btn15"
-                    style="@style/buttonStyle"
-                    android:text="ليبيا" />
-            </LinearLayout>
+        <Button
+          android:id="@+id/btn15"
+          style="@style/buttonStyle"
+          android:text="ليبيا" />
+      </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-                <Button
-                    android:id="@+id/btn16"
-                    style="@style/buttonStyle"
-                    android:text="تونس" />
+        <Button
+          android:id="@+id/btn16"
+          style="@style/buttonStyle"
+          android:text="تونس" />
 
-                <Button
-                    android:id="@+id/btn17"
-                    style="@style/buttonStyle"
-                    android:text="الجزائر" />
+        <Button
+          android:id="@+id/btn17"
+          style="@style/buttonStyle"
+          android:text="الجزائر" />
 
-                <Button
-                    android:id="@+id/btn18"
-                    style="@style/buttonStyle"
-                    android:text="المغرب" />
-            </LinearLayout>
+        <Button
+          android:id="@+id/btn18"
+          style="@style/buttonStyle"
+          android:text="المغرب" />
+      </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-                <Button
-                    android:id="@+id/btn19"
-                    style="@style/buttonStyle"
-                    android:text="موريتانيا" />
+        <Button
+          android:id="@+id/btn19"
+          style="@style/buttonStyle"
+          android:text="موريتانيا" />
 
-                <Button
-                    android:id="@+id/btn20"
-                    style="@style/buttonStyle"
-                    android:text="الصومال" />
+        <Button
+          android:id="@+id/btn20"
+          style="@style/buttonStyle"
+          android:text="الصومال" />
 
-                <Button
-                    android:id="@+id/btn21"
-                    style="@style/buttonStyle"
-                    android:text="جيبوتي" />
-            </LinearLayout>
+        <Button
+          android:id="@+id/btn21"
+          style="@style/buttonStyle"
+          android:text="جيبوتي" />
+      </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
 
-                <Button
-                    android:id="@+id/btn22"
-                    style="@style/buttonStyle"
-                    android:text="جزر القمر" />
+        <Button
+          android:id="@+id/btn22"
+          style="@style/buttonStyle"
+          android:text="جزر القمر" />
 
-            </LinearLayout>
+      </LinearLayout>
 
-        </LinearLayout>
+    </LinearLayout>
 
-    </ScrollView>
+  </ScrollView>
 
-    <TextView
-        android:id="@+id/textV"
-        style="@style/textV" />
+  <TextView
+    android:id="@+id/textV"
+    style="@style/textV" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
