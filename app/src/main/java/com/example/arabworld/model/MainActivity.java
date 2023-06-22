@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     findViews();
-
+    saveData();
 
     btn1.setOnClickListener(new View.OnClickListener() {
       @Override
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn2"));
+        textV.setText(getData("UAE"));
       }
     });
 
