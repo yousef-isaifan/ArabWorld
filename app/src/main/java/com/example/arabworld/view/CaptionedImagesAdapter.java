@@ -11,6 +11,8 @@ import androidx.cardview.widget.CardView;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.arabworld.R;
+
 public class CaptionedImagesAdapter
         extends RecyclerView.Adapter<CaptionedImagesAdapter.ViewHolder>{
 
