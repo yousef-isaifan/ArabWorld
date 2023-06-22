@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn3"));
+        textV.setText(getData("BH"));
       }
     });
 
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn4"));
+        textV.setText(getData("KW"));
       }
     });
 
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn5"));
+        textV.setText(getData("YE"));
       }
     });
 
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn6"));
+        textV.setText(getData("QA"));
       }
     });
 
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn7"));
+        textV.setText(getData("OM"));
       }
     });
 
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn8"));
+        textV.setText(getData("JO"));
       }
     });
 
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn9"));
+        textV.setText(getData("SY"));
       }
     });
 
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn10"));
+        textV.setText(getData("LB"));
       }
     });
 
@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn11"));
+        textV.setText(getData("PS"));
       }
     });
 
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn12"));
+        textV.setText(getData("IQ"));
       }
     });
 
@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn13"));
+        textV.setText(getData("SD"));
       }
     });
 
@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn14"));
+        textV.setText(getData("EG"));
       }
     });
 
@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn15"));
+        textV.setText(getData("LY"));
       }
     });
 
@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn16"));
+        textV.setText(getData("TN"));
       }
     });
 
@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn17"));
+        textV.setText(getData("DZ"));
       }
     });
 
@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn18"));
+        textV.setText(getData("MA"));
       }
     });
 
@@ -208,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn19"));
+        textV.setText(getData("MR"));
       }
     });
 
@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn20"));
+        textV.setText(getData("SO"));
       }
     });
 
@@ -224,7 +224,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn21"));
+        textV.setText(getData("DJ"));
       }
     });
 
@@ -232,7 +232,7 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         sv.setVisibility(View.VISIBLE);
-        textV.setText(getData("btn22"));
+        textV.setText(getData("KM"));
       }
     });
 
